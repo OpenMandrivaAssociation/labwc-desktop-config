@@ -12,7 +12,7 @@ Requires: labwc
 %description
 Labwc desktop config for XFCE Wayland session and LXQT Wayland session
 
-%package desktop-LXQt-Wayland
+%package LXQt-Wayland
 Summary:	LXQt Wayland desktop configuration
 Group:		Graphical desktop/LXQt
 Suggests:	plasma6-breeze
@@ -21,7 +21,7 @@ Suggests:	noto-sans-fonts
 
 BuildArch:	noarch
 
-%description desktop-LXQt-Wayland
+%description LXQt-Wayland
 LXQt-Wayland desktop configuration
 
 %prep
@@ -37,7 +37,7 @@ mkdir -p %{buildroot}%{_sysconfdir}/xdg
 cp -a * %{buildroot}%{_sysconfdir}/xdg
 ### DESKTOP LXQT-Wayland END ###
 
-%files desktop-LXQt-Wayland
+%files LXQt-Wayland
 %{_sysconfdir}/xdg/featherpad
 %{_sysconfdir}/xdg/gtk-3.0
 %{_sysconfdir}/xdg/lxqt

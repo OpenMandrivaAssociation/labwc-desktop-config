@@ -4,7 +4,7 @@ Release:    1
 Summary:    Labwc desktop config for XFCE Wayland session and LXQT Wayland session
 License:    GPL-2.0-only
 URL:        https://github.com/OpenMandrivaAssociation/labwc-desktop-config
-
+Source0:    LXQT-Wayland
 Requires: labwc
 
 %description
@@ -23,7 +23,7 @@ BuildArch:	noarch
 LXQt-Wayland desktop configuration
 
 %prep
-%autosetup -p1
+#autosetup -p1
 
 %build
 # nothing

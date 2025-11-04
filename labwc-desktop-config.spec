@@ -23,7 +23,7 @@ BuildArch:	noarch
 LXQt-Wayland desktop configuration
 
 %prep
-%autosetup -p1
+%autosetup -n LXQt-Wayland -p1
 
 %build
 # nothing

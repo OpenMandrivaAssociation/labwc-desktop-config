@@ -32,7 +32,7 @@ LXQt-Wayland desktop configuration
 
 ### DESKTOP LXQT-Wayland ###
 mkdir -p %{buildroot}%{_sysconfdir}/xdg
-cp -a LXQt-Wayland/* %{buildroot}%{_sysconfdir}/xdg
+cp -a * %{buildroot}%{_sysconfdir}/xdg
 ### DESKTOP LXQT-Wayland END ###
 
 %files desktop-LXQt-Wayland

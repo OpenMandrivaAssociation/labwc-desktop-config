@@ -1,3 +1,5 @@
+%undefine _debugsource_packages
+
 Name:       labwc-desktop-config
 Version:    0.1
 Release:    1
